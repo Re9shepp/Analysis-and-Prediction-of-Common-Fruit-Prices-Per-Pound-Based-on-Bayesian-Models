@@ -17,6 +17,10 @@ The repo is structured as:
 -   `paper` Includes the Quarto document and PDF of the final paper, along with the bibliography file.
 -   `scripts` contains the R scripts used to simulate, download and clean data.
 
+## Data Retrieval
+The raw fruit pricing data was retrieved from Hammer Data. To access the original dataset:
+1. Visit the Hammer Data website.
+2. Click the "Zipped CSVs with full price data" link and save the file locally.
 
 ## Statement on LLM usage
 
