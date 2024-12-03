@@ -1,30 +1,23 @@
-# Starter folder
+# Analysis-and-Prediction-of-Common-Fruit-Prices-Per-Pound-Based-on-Bayesian-Models
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+This repository provides a predictive framework for analyzing and forecasting the price per pound of common fruits, including apples, bananas, melons, and oranges. Leveraging a Bayesian model, this study evaluates how factors such as historical prices, vendor, month, and fruit category influence current pricing trends. This repository includes all materials related to the study, including datasets, scripts, models, and paper.
 
 
 ## File Structure
 
 The repo is structured as:
 
--   `data/raw_data` contains the raw data as obtained from X.
--   `data/analysis_data` contains the cleaned dataset that was constructed.
--   `model` contains fitted models. 
--   `other` contains relevant literature, details about LLM chat interactions, and sketches.
--   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
+-   `data/00-simulated_data` contains the simulated fruit price per pound.
+-   `data/01-raw_data` Contains the original raw fruit pricing data retrieved from Hammer Data, however, due to the large file size, only a compressed version of one dataset can be uploaded. The raw data must be downloaded manually from https://jacobfilipp.com/hammer/.
+-   `data/02-analysis_data` includes the cleaned dataset constructed through rigorous preprocessing.
+-   `model` Stores fitted Bayesian models used in the study. 
+-   `other` Contains additional details, such as sketches for figures, llm usage and API for model.
+-   `paper` Includes the Quarto document and PDF of the final paper, along with the bibliography file.
 -   `scripts` contains the R scripts used to simulate, download and clean data.
 
 
 ## Statement on LLM usage
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
-
-## Some checks
-
-- [ ] Change the rproj file name so that it's not starter_folder.Rproj
-- [ ] Change the README title so that it's not Starter folder
-- [ ] Remove files that you're not using
-- [ ] Update comments in R scripts
-- [ ] Remove this checklist
+Aspects of the code were written with the help of Chatgpt4.0, the entire chat history is available at other/llm_usage/usage.txt.
