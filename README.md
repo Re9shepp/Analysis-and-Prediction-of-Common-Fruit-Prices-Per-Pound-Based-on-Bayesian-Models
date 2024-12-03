@@ -10,11 +10,11 @@ This repository provides a predictive framework for analyzing and forecasting th
 The repo is structured as:
 
 -   `data/00-simulated_data` contains the simulated fruit price per pound.
--   `data/01-raw_data` Contains the original raw fruit pricing data retrieved from Hammer Data, however, due to the large file size, only a compressed version of one dataset can be uploaded. The raw data must be downloaded manually from https://jacobfilipp.com/hammer/.
+-   `data/01-raw_data` contains the original raw fruit pricing data retrieved from Hammer Data, however, due to the large file size, only a compressed version of one dataset can be uploaded. The raw data must be downloaded manually from https://jacobfilipp.com/hammer/.
 -   `data/02-analysis_data` includes the cleaned dataset constructed through rigorous preprocessing.
--   `model` Stores fitted Bayesian models used in the study. 
--   `other` Contains additional details, such as sketches for figures, llm usage and API for model.
--   `paper` Includes the Quarto document and PDF of the final paper, along with the bibliography file.
+-   `model` stores fitted Bayesian models used in the study. 
+-   `other` contains additional details, such as sketches for figures, llm usage and API for model.
+-   `paper` includes the Quarto document and PDF of the final paper, along with the bibliography file.
 -   `scripts` contains the R scripts used to simulate, download and clean data.
 
 ## Data Retrieval
