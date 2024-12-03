@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulates a dataset of [XXX]
+# Purpose: Simulates a dataset of fruit price
 # Author: Mingjin Zhan
 # Date: 28 November 2024
 # Contact: mingjin.zhan@mail.utoronto.ca
